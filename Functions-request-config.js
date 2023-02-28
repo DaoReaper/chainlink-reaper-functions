@@ -33,7 +33,7 @@ const requestConfig = {
   // string containing the source code to be executed
   source: fs.readFileSync("./Functions-request-source.js").toString(),
   // args can be accessed within the source code with `args[index]` (ie: args[0])
-  args: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+  args: ["20, 10, 12, 60", "2, 5, 3, 1"],
   // expected type of the returned value
   expectedReturnType: ReturnType.uint256,
 }
